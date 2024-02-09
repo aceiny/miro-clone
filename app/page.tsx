@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <main>
       <p>workin</p>
-      <Button>Click me</Button>
     </main>
   );
 }
