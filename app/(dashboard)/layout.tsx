@@ -12,7 +12,7 @@ const DashboardLayout = ({ children }: Props) => {
             <div className="w-full pl-[60px] h-full">
                 <div className=" w-full flex gap-x-3 h-full">
                     <OrgSideBar />
-                    <div className="h-full flex-1 bg-red-200">
+                    <div className="h-full flex-1">
                         <NavBar/>
                         {children}
                     </div>
