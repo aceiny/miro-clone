@@ -7,7 +7,7 @@ interface Props {
 }
 const DashboardLayout = ({ children }: Props) => {
     return (
-        <div className="flex h-screen w-full">
+        <div className="flex h-screen">
             <SideBar    />
             <div className="w-full pl-[60px] h-full">
                 <div className=" w-full flex gap-x-3 h-full">
